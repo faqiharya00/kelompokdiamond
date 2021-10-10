@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diamond</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+       <div class="wrapper">
+         <div class="logo"><a href="diamond.html">Diamond.</a></div>
+         <div class="menu">
+           <ul>
+             <li><a href="home.html">Home</a>
+              <li><a href="courses.html">Courses</a>
+                <li><a href="Login.html">Login</a>
+                  <li><a href="partners.html">partners</a>
+                    <li><a href="contact.html">contact</a>
+                      <li><a href="signup.html"class="tbl-biru">Sign up</a>
+
+
+           </ul>
+         </div>
+       </div>
+   </nav>
+<body>
+    <form action="" method="post"> 
+    <fieldset>
+    <legend align="center">PENDAFTARAN</legend>
+    Name: <input type = "text" name = "nama" required placeholder="Name" autofocus>
+    <br>
+    <br>
+    Gender 
+    <input type="radio" name="jenis_kelamin" value="L"> Laki-laki
+    <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+    <br>
+    <br>
+    Address: <input type = "text" name = "address" placeholder="Address">
+    <br>
+    <br>
+    Country: <select name="Country">
+        <option value=’CC’>Indonesia</option>
+        <option value=’SI’> Malaysia </option>
+        <option value=’CAI’> singapura </option>
+        </select> 
+    <br>    
+    <br>
+    Email: <input type = "text" name = "email" requied placeholder="Email">
+    <br>    
+    <br>
+    NO KTP: <input type="text" id="noKTP" name="nomorKTP" required pattern="[0-9] {16}" title="noKTP adalah 16 digit angka"> 
+    <br>    
+    <br>
+    Photo: <input type = "text" name = "file">
+    <input type="file" accept="image/*"/>
+    <br>
+    <br>
+
+
+    Comment:
+    <textarea rows="7" cols="70" name="tentang"></textarea><br/> 
+    <br>
+    Codepos: <input type="text" name="codepos" pattern= "[0-9] {5}" title="five digit code pos">
+    <br><br>
+    <input type="submit" name="submit" value="submit"> 
+            
+    </fieldset>
+    </form>
+</body>
+   
+
+</html>
